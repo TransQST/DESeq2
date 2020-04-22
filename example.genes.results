@@ -1,0 +1,13 @@
+gene_id	transcript_id(s)	length	effective_length	expected_count	TPM	FPKM
+gene1	transcript1	3262	2965.93	975	28.06	28.14
+gene2	transcript2	799.5	503.85	0	0	0
+gene3	transcript3	1979.26	1683.18	71	3.6	3.61
+gene4	transcript4	1245	949	0	0	0
+gene5	transcript5	4085.86	3789.79	6	0.14	0.14
+gene6	transcript6	665.5	381.72	0	0	0
+gene7	transcript7	4395	4098.93	134	2.79	2.8
+gene8	transcript8	1632.92	1337.16	52	3.32	3.33
+gene9	transcript9	3327.91	3031.83	1922.07	54.11	54.28
+gene10	transcript10	1569.92	1274.3	2040	136.63	137.06
+gene11	transcript11	645.23	350.67	3210	781.25	783.72
+gene12	transcript12	3626	3329.93	7	0.18	0.18
