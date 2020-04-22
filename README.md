@@ -28,3 +28,5 @@ There are two sets of scripts, ```DESeq2_call.R``` and ```DESeq2_run.R```.
 1. Table with normalized read counts.
 2. Tables containing differentially expressed genes for each contrast.
 3. A PCA and a hierarchical clustering of normalized data.
+
+
