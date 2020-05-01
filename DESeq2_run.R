@@ -27,7 +27,7 @@ doses <- setdiff(unique(meta2$dose), control.name) %>% factor(., levels = c(cont
 
 # Check if files are in place
 if(!all(paste0(meta2$filename, ".genes.results") %in% 
-  list.files(gene.path){
+  list.files(gene.path))){
   stop("Metadata and input data files do not match")
 }
 cat("Metadata and input data files match, moving on...")
