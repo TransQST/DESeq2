@@ -1,4 +1,4 @@
-###### Scipt to run th parameters passed to DESeq_call.R ####
+###### Script to run th parameters passed to DESeq_call.R ####
 
 # Check to see if packages are installed. 
 #Install them if they are not, then load them into the R session.
@@ -8,8 +8,12 @@ check.packages <- function(pkg){
     install.packages(new.pkg, dependencies = TRUE)
   sapply(pkg, require, character.only = TRUE)
 }
-packages <- c("DESeq2", "RColorBrewer", "pheatmap", "ggplot2", "dplyr")
+packages <- c("RColorBrewer", "pheatmap", "ggplot2", "dplyr")
 check.packages(packages)
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+BiocManager::install("DESeq2")
 
 setwd(basedir)
 ## Read and create a copy of metadata file
