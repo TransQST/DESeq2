@@ -13,6 +13,7 @@ check.packages(packages)
 if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
 BiocManager::install("DESeq2")
+library(DESeq2)
 
 setwd(basedir)
 ## Read and create a copy of metadata file
