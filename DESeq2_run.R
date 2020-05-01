@@ -29,8 +29,9 @@ doses <- setdiff(unique(meta2$dose), control.name) %>% factor(., levels = c(cont
 if(!all(paste0(meta2$filename, ".genes.results") %in% 
   list.files(gene.path))){
   stop("Metadata and input data files do not match")
+} else {
+message ("Metadata and input data files match, moving on...")
 }
-cat("Metadata and input data files match, moving on...")
 
 ## Merge genes.results files into a single file
 setwd(gene.path)
