@@ -10,7 +10,7 @@ metadata <- "/Users/terezinhasouza/Downloads/metadata.txt" #file name or path to
 control.name <- "Ctrl" #name of control, or to which contrasts should be made
 min.reads <- 10
 norm.method <- "vsd"
-p.adj.method <- "bonferroni"
+p.adj.method <- "bonferroni" #or fdr
 save.files <- TRUE #write .csv files for each contrast treated vs control
 clustering <- TRUE #clustering of samples
 pca <- TRUE #pca of normalized read counts
