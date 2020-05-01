@@ -12,7 +12,6 @@ packages <- c("RColorBrewer", "pheatmap", "ggplot2", "dplyr")
 check.packages(packages)
 if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
-
 BiocManager::install("DESeq2")
 
 setwd(basedir)
